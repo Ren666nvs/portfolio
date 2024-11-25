@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+
+}
+.icon-container{
+    width: 50px;
+    height: 50px;
+    color: white;
+   
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px;
+    border-bottom: 1px solid  grey;
+   
+}
+.header-text{
+
+    font-size: 50px;
+    
+
+}
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    align-items: center;
+
+}
+.icon-container{
+    display: none;
+}
+
+.section1{
+    display: flex;
+}
+.section1-container{
+    display: flex;
+}
+.section1-text{
+    width: 100%;
+   margin-block: 30px;
+}
+.greeting-text{
+    font-size: 110px;
+}
+.container{
+    margin-inline: 50px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+    font-size: 60px;
+    padding-block: 40px;
+}
+.contact-me-button{
+    padding: 20px;
+    border-radius: 20px;
+     background-color: #d3e97a;
+     color: black;
+    display: flex;
+    width: fit-content;
+    
+    
+}
+
+element.style {
+    display: flex;
+}
+
+.icon-button{
+    background-color: #222222;
+    border-radius: 50%;
+    color: #d3e97a;
+    width: 50px;
+    height: 50px;
+  
+}
+.header-title{
+    margin-block: 40px;
+}
+.image-container{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.image{
+    width: 10%;
+    border-radius: 20px;
+    height: 80vh;
+
+}
+.text-1{
+display: flex;
+gap: 15px;
+
+}
+
+@media (max-width: 1200px) {
+    .text-1{
+        display: none;
+
+    }
+    .icon-container{
+        display: flex;
+    }
+}
