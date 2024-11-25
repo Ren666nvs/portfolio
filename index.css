@@ -37,17 +37,18 @@ body{
 
 }
 .icon-container{
-    display: none;
+    display:none;
 }
 
 .section1{
     display: flex;
-}
-.section1-container{
-    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px;
+    border-bottom: 1px solid grey;
 }
 .section1-text{
-    width: 100%;
+    width: 51%;
    margin-block: 30px;
 }
 .greeting-text{
@@ -66,25 +67,18 @@ body{
 }
 .contact-me-button{
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 50px;
      background-color: #d3e97a;
      color: black;
-    display: flex;
-    width: fit-content;
-    
-    
 }
-
-element.style {
-    display: flex;
-}
-
 .icon-button{
     background-color: #222222;
     border-radius: 50%;
     color: #d3e97a;
     width: 50px;
     height: 50px;
+   
+    
   
 }
 .header-title{
@@ -100,6 +94,7 @@ element.style {
     width: 10%;
     border-radius: 20px;
     height: 80vh;
+    
 
 }
 .text-1{
@@ -117,3 +112,4 @@ gap: 15px;
         display: flex;
     }
 }
+
